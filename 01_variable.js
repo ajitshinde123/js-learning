@@ -1,17 +1,13 @@
-console.log("WAP to swap variable values using third variable");
-var n1 = 100; // 200
-var n2 = 200; // 100
-console.log("======== Before Swap ==========");
-console.log("n1:", n1, " n2:", n2);
+var city; // Variable Declaration
+city="Pune";  // Variable Initialization
+console.log(city);
+console.log("My city name is:", city);
 
-console.log("======== After Swap ==========");
-var temp = n1;
-n1 = n2;
-n2 = temp;
-console.log("n1:", n1, " n2:", n2);
-console.log("==== Variable Re-declaration ======");
-var pinCode = "411057";
-console.log(pinCode);
-pinCode  = "112233"; // Variable update
+console.log("What is undefined ?");
+var firstName; 
+console.log("First Name variable value before Initialization:", firstName);
+firstName="Gajanan";
+console.log("First name:", firstName);
 
-var pinCode = "445533"; // Variable re-declaration
+firstName = "Ratan";
+console.log("First name:", firstName);
